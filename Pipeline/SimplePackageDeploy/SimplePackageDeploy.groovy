@@ -1,15 +1,11 @@
 @groovy.transform.BaseScript com.ibm.dbb.groovy.ScriptLoader baseScript
 import java.io.File
-import java.io.UnsupportedEncodingException
-import java.security.MessageDigest
 import com.ibm.dbb.build.*
 import com.ibm.dbb.build.DBBConstants.CopyMode
 import com.ibm.dbb.build.report.BuildReport
 import com.ibm.dbb.build.report.records.DefaultRecordFactory
 import groovy.transform.*
 import groovy.cli.commons.*
-import groovy.json.JsonParserType
-import groovy.json.JsonBuilder
 import groovy.json.JsonSlurper
 
 /************************************************************************************
